@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* src/SignUp.css */
+
+.signup-container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    color: #333;
+    background-color: #f4f3ff;
+
+   }
+  
+  .signup-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .signup-form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .signup-form input:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+  }
+  
+  .signup-form .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+
+   .signup-form button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #a52a2a;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 1s;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.signup-form button:hover {
+    background-color: #ffd700;
+    color: #333;
+}
+
+.google-button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #a52a2a;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 1s;
+    width: 100%; 
+    box-sizing: border-box; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.google-button:hover {
+    background-color: #ffd700;
+    color: #333;
+}
+
+.google-icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+  /* Separator */
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .25em;
+  }
+  
+
+  /* Input */
+
+  input {
+    border-radius: 10px !important;
+  }
+
+  /* Already have an account*/
+  a {
+    text-decoration: none;
+  }
+
+  .spa {
+    padding: 3px;
+  }
+
+  p {
+    text-align: center;
+    padding-left: 20px;
+  }
+
+  #header {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: #a52a2a;
+  }
+
+ 
+  
+  

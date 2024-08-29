@@ -1,0 +1,132 @@
+/* src/SignIn.css */
+
+.signin-container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    color: #333;
+    background-color: #f4f3ff; /* Light purple background */
+}
+
+.signin-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.signin-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.signin-form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px; 
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.signin-form input:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.signin-form .error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.signin-form button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #a52a2a; 
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 1s;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.signin-form button:hover {
+    background-color: #ffd700;
+    color: #333;
+}
+
+.google-button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 1s;
+    width: 100%; 
+    box-sizing: border-box; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.google-button:hover {
+    background-color: #ffd700;
+    color: #333;
+}
+
+.google-icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Separator */
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.separator:not(:empty)::before {
+    margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+    margin-left: .25em;
+}
+
+/* Already have an account */
+a {
+    text-decoration: none;
+}
+
+.spa {
+    padding: 3px;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    padding-left: 20px;
+    margin-top: 10px;
+}
