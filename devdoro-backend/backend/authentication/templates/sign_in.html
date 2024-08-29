@@ -69,6 +69,7 @@
     <div>
         <p>Hi {{ request.session.user_data.given_name }} 🙂</p>
         <p>Your email is {{ request.session.user_data.email }}</p>
+        <p>Contact Us</p>
         <img src="{{ request.session.user_data.picture }}" alt="User picture">
         <p>Click here to <a href="/auth/sign-out">Sign out</a></p>
     </div>
