@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './customCard.css';
 
 const CustomPomodoroCard = () => {
     const [quickSetHours, setQuickSetHours] = useState(2);

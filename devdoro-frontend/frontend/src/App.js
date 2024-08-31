@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import SignIn from './SIgn Up pages/SignIn';
 import SignUp from './SIgn Up pages/SignUp';
+// import customCard from './custom-pomodoro-card/customCard';
 import customCard from './custom-pomodoro-card/customCard';
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <Routes>
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/CustomPomodoroCard" element={<customCard />} />
         <Route path="/" element={<SignIn />} /> {/* Default route to SignIn */}
       </Routes>
     </Router>
